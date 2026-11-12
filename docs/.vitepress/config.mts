@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/portfolio-research-career-exploration/',
   title: 'FDE Career Research',
   description: 'Research into forward deployed engineering roles and skills',
   cleanUrls: true,
