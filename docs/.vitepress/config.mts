@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Overview', link: '/' },
+      { text: 'What FDEs Do', link: '/fde-overview' },
       { text: 'Job Research', link: '/jobs/' },
       { text: 'Skills', link: '/skills' },
       { text: 'Career Path', link: '/career-path' },
@@ -17,7 +18,8 @@ export default defineConfig({
       {
         text: 'Research',
         items: [
-          { text: 'FDE Overview', link: '/' },
+          { text: 'Home', link: '/' },
+          { text: 'What FDEs Do', link: '/fde-overview' },
           { text: 'Job Listings', link: '/jobs/' },
           { text: 'Skills', link: '/skills' },
           { text: 'Internship vs. Full-Time', link: '/career-path' },
